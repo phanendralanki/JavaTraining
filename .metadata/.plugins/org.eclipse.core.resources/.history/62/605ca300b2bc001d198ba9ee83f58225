@@ -1,0 +1,25 @@
+package com.oops;
+
+class First {
+	public int a = 10;
+	private int b = 20;
+	public static int c = 30;
+	private static int d = 40;
+	static int e = 50;
+	final static int f = 60;
+	final int g = 70;
+//	private class First - not allowed
+//	protected class First - not allowed
+	public static void main(String[] args) {
+		System.out.println("Hello");
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		System.out.println(f);
+		System.out.println(g);
+	}
+	
+}
+

@@ -1,0 +1,7 @@
+package com.Abstraction;
+
+class Practice extends Abstract{
+	public void Reason() {
+		System.out.println("working");
+	}
+}

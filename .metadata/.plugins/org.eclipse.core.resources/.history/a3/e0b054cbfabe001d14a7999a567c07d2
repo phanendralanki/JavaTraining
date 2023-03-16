@@ -1,0 +1,20 @@
+package com.oops.inheritance;
+
+private class Parent {
+
+	public static void house() {
+		System.out.println("Father's house");
+	}
+
+	private static void car() {
+		System.out.println("Father's car");
+	}
+
+	protected static void laptop() {
+		System.out.println("father's laptop");
+	}
+	
+	static void eat() {
+		System.out.println("eat");
+	}
+}

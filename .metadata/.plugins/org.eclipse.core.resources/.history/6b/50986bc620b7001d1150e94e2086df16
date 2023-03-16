@@ -1,0 +1,10 @@
+package com.strings;
+
+public class Stringbuffer {
+	public static void main(String[] args) {
+//	StringBuffer s1 = "abc"; //can't possible to create an object without using new keyword except for String
+		
+	StringBuffer sb1 = new StringBuffer("hello");
+	
+	}
+}

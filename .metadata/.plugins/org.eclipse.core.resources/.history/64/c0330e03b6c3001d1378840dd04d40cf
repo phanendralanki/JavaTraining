@@ -1,0 +1,8 @@
+package com.MyPackage;
+
+public class TrainDetails {
+	public static String startPoint;
+	public static String destinationPoint;
+	public static String ticketsAvailable;
+	
+}

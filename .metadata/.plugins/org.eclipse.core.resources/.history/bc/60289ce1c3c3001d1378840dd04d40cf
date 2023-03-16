@@ -1,0 +1,17 @@
+package com.MyPackage;
+
+import java.util.Scanner;
+
+public class Practice {
+//	public static void main(String[] args) {
+//		Scanner in = new Scanner(System.in);
+//        String duration = in.next();
+//       int time  = Integer.parseInt(duration.substring(0,2));
+//       int seconds  = Integer.parseInt(duration.substring(4));
+//       System.out.println(time*60+seconds);
+//	}
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+	}
+}

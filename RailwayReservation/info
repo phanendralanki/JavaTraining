@@ -1,0 +1,28 @@
+Railway ticket reservation
+
+Requirements:        //switch case
+cache name
+
+Hi hello welcome 
+press 1 to enter user details
+press 2 to display user details(if 1st step is completed)
+press 3 to display train details 
+	- enter start point and destination and date
+
+Train Details :
+ Train no| Train name | service type(express/passenger/superFast)| Tickets avialable //1 ticket available
+
+3 train details
+
+press 4: booking tickets 
+
+	trainno, fullName,phoneNumber,Nationality
+
+press 5: exit
+
+Technical Requirements: 
+
+project ->package -> myPackage -> UserDetails class - name,email,mobile,age,gender,registration no -> your registration successfull
+MultiLevel Inheritance 
+
+2nd class -> DisplayUserDetails - 

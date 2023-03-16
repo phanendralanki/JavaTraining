@@ -1,0 +1,12 @@
+package com.MyPackage;
+
+public class DisplayDetails extends UserDetails {
+	public static void userDetails() {
+		System.out.println("your Details: ");
+		System.out.println("name: "+name);
+		System.out.println("email: "+email);
+		System.out.println("mobile: "+mobile);
+		System.out.println("age: "+age);
+		System.out.println("gender: "+gender);
+	}
+}

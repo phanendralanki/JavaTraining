@@ -1,0 +1,7 @@
+package com.logicalQuestions;
+
+public class FactorialNumberUsingRecursion {
+	public static void main(String[] args) {
+		
+	}
+}

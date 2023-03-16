@@ -1,0 +1,15 @@
+package com.MyPackage;
+
+public class UserDetails {
+	public static String name;
+	public static String email;
+	public static String mobile;
+	public static String age;
+	public static String gender;
+	
+	
+	public static void getDetails() {
+		System.out.println("\t\t **** Welcome to RailWay Reservation System **** \t\t");
+	}
+	
+}

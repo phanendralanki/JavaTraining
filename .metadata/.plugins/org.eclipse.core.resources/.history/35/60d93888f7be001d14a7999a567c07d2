@@ -1,0 +1,9 @@
+package com.oops.inheritance;
+
+class Parent {
+
+	public static void house() {
+		 System.out.println("Father's house");
+	 }
+
+}

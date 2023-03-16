@@ -1,0 +1,18 @@
+package com.MyPackage;
+
+import java.util.Scanner;
+public class UserDetails {
+	public static String name;
+	public static String email;
+	public static String mobile;
+	public static String age;
+	public static String gender;
+	
+	public static Scanner sc = new Scanner(System.in);
+	public static void getDetails() {
+		System.out.println("\t\t **** Welcome to RailWay Reservation System **** \t\t");
+		System.out.println("Enter your name: ");
+		name = sc.nextLine();
+	}
+	
+}

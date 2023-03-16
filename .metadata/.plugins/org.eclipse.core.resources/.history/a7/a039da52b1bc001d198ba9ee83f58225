@@ -1,0 +1,17 @@
+package com.oops;
+
+class First {
+//	private class First - not allowed
+//	protected class First - not allowed
+	public static void main(String[] args) {
+		System.out.println("Hello");
+	}
+	
+		class ABC{
+		public static void main(String[] args) {
+			
+		}
+	}
+	
+}
+

@@ -1,0 +1,9 @@
+package com.Abstraction;
+
+import java.util.Scanner;
+
+public class Solve {
+	public static void main(String[] args) {
+		
+	}
+}

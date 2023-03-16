@@ -1,0 +1,16 @@
+package com.oops.inheritance;
+
+class Parent {
+
+	public static void house() {
+		System.out.println("Father's house");
+	}
+
+	public static void car() {
+		System.out.println("Father's car");
+	}
+
+	public static void laptop() {
+		System.out.println("father's laptop");
+	}
+}

@@ -1,0 +1,7 @@
+package com.Abstraction;
+
+public class Abstract {
+	public static void leaveRequest() {
+		System.out.println("leave for one day");
+	}
+}

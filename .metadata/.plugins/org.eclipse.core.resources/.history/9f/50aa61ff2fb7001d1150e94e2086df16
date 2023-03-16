@@ -1,0 +1,29 @@
+package com.strings;
+import java.util.Scanner;
+public class Practice {
+	public static void main(String[] args) {
+		//1st remove "the" occurrences 
+//		Scanner sc = new Scanner(System.in);
+//		String a = sc.nextLine();
+//		System.out.println(a);
+//		System.out.println(a.replace("the",""));
+		
+		//2nd string length
+//		Scanner sc = new Scanner(System.in);
+//		String s = sc.nextLine();
+//		System.out.println("The length of word "+s+" is "+s.length());
+		
+		//3rd- Automated dictionary  
+		//i/p - Excellent Excellent
+		Scanner sc = new Scanner(System.in);
+		String s1 = sc.nextLine();
+		String s2 = sc.nextLine();
+		if((s1.length()<=50)&&(s2.length()<=50)){
+			if(s1.equals(s2))
+				System.out.println("It is correct");
+		}
+		
+		
+		
+	}
+}

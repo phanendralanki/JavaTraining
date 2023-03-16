@@ -1,0 +1,41 @@
+package com.MyPackage;
+import java.util.Scanner;
+public class Execute {
+	public static void main(String[] args) {
+		//UserDetails.getDetails();
+		System.out.println("\t\t **** Welcome to RailWay Reservation System **** \t\t\n");
+		Scanner sc = new Scanner(System.in);
+		int i = 1;
+		int option;
+		//UserDetails user = new UserDetails();
+		//DisplayDetails details = new DisplayDetails();
+		while(i!=0) {
+			System.out.println("Select your choice\n");
+			System.out.println("1.Register");
+			System.out.println("2.display user Details");
+			System.out.println("3.Train Details");
+			System.out.println("4.Book Tickets");
+			System.out.println("5.Exit");
+			
+			option = sc.nextInt();
+			
+			switch(option) {
+			
+			case 1: 
+				//user.getDetails();
+				UserDetails.getDetails();
+				System.out.println();
+				break;
+			case 2: 
+				//details.userDetails();
+				DisplayDetails.userDetails();
+				System.out.println();
+				break;
+			case 5:
+				i = 0;
+				break;
+			}
+		}		
+		sc.close();
+	}
+}

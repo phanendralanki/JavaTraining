@@ -1,0 +1,19 @@
+package com.oops.inheritance;
+
+class Child {
+	public static void phone() {
+		System.out.println("child's phone");
+	}
+	public static void bike() {
+		System.out.println("Child's bike");
+	}
+	
+	
+	
+	
+//	public static void main(String[] args) {
+//		Parent p = new Parent();
+//	}
+	
+	
+}

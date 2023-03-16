@@ -1,0 +1,10 @@
+package com.oops.inheritance;
+
+public class GrandParent {
+	public void farmHouse() {
+		System.out.println("Grand Parent's farm house");
+	}
+	public void farmLand() {
+		System.out.println("Grand Parent's Farm Land");
+	}
+}

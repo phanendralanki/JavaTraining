@@ -1,0 +1,9 @@
+package com.MyPackage;
+
+import java.util.Scanner;
+
+public class Booking extends TrainDetails {
+	public static void bookTicket() {
+		Scanner sc = new Scanner(System.in);
+	}
+}

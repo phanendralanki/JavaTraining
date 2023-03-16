@@ -1,0 +1,8 @@
+package com.oops.inheritance;
+
+public class Execute {
+	public static void main(String[] args) {
+		Parent  p = new Parent();
+		Child c = new Child();
+	}
+}
